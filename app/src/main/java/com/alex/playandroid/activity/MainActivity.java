@@ -121,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
 //                .withAccountHeader(R.layout.drawer_account_bg)
                 .addProfiles(userItem,addAccount)
                 .withTextColor(Color.DKGRAY)
-
                 .withCompactStyle(false)
                 .withOnAccountHeaderListener((view, profile, currentProfile) -> {
                     switch ((int) profile.getIdentifier()) {
