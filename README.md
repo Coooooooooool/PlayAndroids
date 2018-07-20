@@ -56,6 +56,11 @@
 >>> 再换一次
 
 ### 玩安卓截图
-![首页](screenshot/device-2018-07-20-165437.png)
 
+<center class="half">
+    <img src="https://raw.githubusercontent.com/Coooooooooool/PlayAndroid/alex/screenshot/device-2018-07-20-165437.png" width="300"/>
+    <img src="https://raw.githubusercontent.com/Coooooooooool/PlayAndroid/alex/screenshot/device-2018-07-20-165437.png" width="300"/>
+</center>
+
+![首页](screenshot/device-2018-07-20-165437.png)
 ![首页](screenshot/device-2018-07-20-171314.png)
