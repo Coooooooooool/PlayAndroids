@@ -57,10 +57,20 @@
 
 ### 玩安卓截图
 
-<center class="half">
-    <img src="https://raw.githubusercontent.com/Coooooooooool/PlayAndroid/alex/screenshot/device-2018-07-20-165437.png" width="300"/>
-    <img src="https://raw.githubusercontent.com/Coooooooooool/PlayAndroid/alex/screenshot/device-2018-07-20-165437.png" width="300"/>
-</center>
 
+<a href="screenshot/device-2018-07-20-165437.png"><img src="screenshot/device-2018-07-20-165437.png" width="30%"/></a>
+<a href="screenshot/device-2018-07-20-171314.png"><img src="screenshot/device-2018-07-20-171314.png" width="30%"/></a>
+
+<!--
+<center class="half">
+    <img src="https://raw.githubusercontent.com/Coooooooooool/PlayAndroid/alex/screenshot/device-2018-07-20-165437.png" />
+    <img src="https://raw.githubusercontent.com/Coooooooooool/PlayAndroid/alex/screenshot/device-2018-07-20-165437.png" />
+</center>
+-->
+
+<!--
+<div align=center>
 ![首页](screenshot/device-2018-07-20-165437.png)
 ![首页](screenshot/device-2018-07-20-171314.png)
+</div>
+-->
