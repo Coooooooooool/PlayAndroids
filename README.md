@@ -57,3 +57,5 @@
 
 ### 玩安卓截图
 ![首页](screenshot/device-2018-07-20-165437.png)
+
+![首页](screenshot/device-2018-07-20-171314.png)
