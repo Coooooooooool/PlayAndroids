@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1296db</color>
+    <color name="colorPrimaryDark">#108cf5</color>
+    <color name="colorAccent">#1296db</color>
+
+
+
+    <color name="colorMain">#1296db</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPage">#E7E7E7</color>
+    <color name="tab_bac">#049486</color>
+    <color name="light_tab_bac">#45c1b5</color>
+
+
+<!--login-->
+    <color name="color_log_in">#94019c8f</color>
+    <color name="color_sign_up">#93303f9f</color>
+    <color name="color_logo_log_in">#b4faf5</color>
+    <color name="color_logo_sign_up">#bbc4fd</color>
+    <color name="color_label">#ededed</color>
+    <color name="white_transparent">#fafafa</color>
+    <color name="color_input_hint">#FFF</color>
+    <color name="color_text_highlight">#fafafa</color>
+    <color name="color_text">#FFF</color>
+    <color name="white_trans">#b3fffcfc</color>
+
+</resources>

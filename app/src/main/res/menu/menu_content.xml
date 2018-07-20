@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opt_collection"
+        android:icon="@mipmap/icon_like_gray"
+        android:title="@string/collection"
+
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/opt_share"
+        android:icon="@mipmap/icon_share"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+
+</menu>

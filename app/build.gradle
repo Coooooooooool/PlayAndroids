@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.mob.sdk'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.3"
+    defaultConfig {
+        applicationId "com.alex.playandroid"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    // 使用Java1.8
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+MobSDK {
+    appKey "26d4412071707"
+    appSecret "794283f6b86fec4b16abbe5671e4592e"
+    ShareSDK {
+        devInfo {
+            SinaWeibo {
+                appKey "568898243"
+                appSecret "38a4f8204cc784f81f9f0daaf31e02e3"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient true
+            }
+
+            Email {}
+            ShortMessage {}
+            Wechat {
+                appId "wx4868b35061f87885"
+                appSecret "64020361b8ec4c99936c0e3999a9f249"
+                userName "gh_afb25ac019c9"
+                path "pages/index/index.html?id=1"
+                withShareTicket true
+                miniprogramType 2
+                bypassApproval false
+            }
+            QQ {
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+                shareByAppClient true
+                bypassApproval false
+            }
+
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':LayoutManagerGroup')
+    compile('com.mikepenz:materialdrawer:5.6.0@aar') {
+        transitive = true
+    }
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.andkulikov:transitionseverywhere:1.7.4'
+    compile 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0'
+    compile 'com.github.Q42:AndroidScrollingImageView:1.2'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.hyman:flowlayout-lib:1.1.2'
+    compile 'com.just.agentweb:agentweb:4.0.2'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-7'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-7'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.youth.banner:banner:1.4.10'
+    compile 'com.alibaba:fastjson:1.2.47'
+    compile 'com.android.support:cardview-v7:26.+'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:design:26.+'
+    compile 'com.android.support:support-vector-drawable:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    compile project(':library')
+}
