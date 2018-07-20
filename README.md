@@ -1,12 +1,31 @@
-
 # 玩安卓
-## 玩安卓
-### 玩安卓
-#### 玩安卓
-##### 玩安卓
-###### 玩安卓
+
+## Screenshot
 
 
+<a href="screenshot/device-2018-07-20-165437.png"><img src="screenshot/device-2018-07-20-165437.png" width="30%"/></a>
+<a href="screenshot/device-2018-07-20-171314.png"><img src="screenshot/device-2018-07-20-171314.png" width="30%"/></a>
+
+
+
+## Thanks to the open source project
+
+* [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
+* [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
+* [BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)
+* [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+* [banner](https://github.com/youth5201314/banner)
+* [retrofit](https://github.com/square/retrofit)
+* [okhttp](https://github.com/square/okhttp)
+* [AgentWeb](https://github.com/Justson/AgentWeb)
+
+
+
+
+
+
+
+<!--
 ### 加粗
 
 * 这是一段测试文字
@@ -54,12 +73,9 @@
 > 这样不换行
 >> 这样就换了
 >>> 再换一次
+-->
 
-### 玩安卓截图
 
-
-<a href="screenshot/device-2018-07-20-165437.png"><img src="screenshot/device-2018-07-20-165437.png" width="30%"/></a>
-<a href="screenshot/device-2018-07-20-171314.png"><img src="screenshot/device-2018-07-20-171314.png" width="30%"/></a>
 
 <!--
 <center class="half">
