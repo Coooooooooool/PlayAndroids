@@ -10,14 +10,17 @@
 
 ## Thanks to the open source project
 
+* [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
 * [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 * [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
 * [BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)
 * [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+* [AgentWeb](https://github.com/Justson/AgentWeb)
 * [banner](https://github.com/youth5201314/banner)
 * [retrofit](https://github.com/square/retrofit)
 * [okhttp](https://github.com/square/okhttp)
-* [AgentWeb](https://github.com/Justson/AgentWeb)
+* [glide](https://github.com/bumptech/glide)
+
 
 
 
